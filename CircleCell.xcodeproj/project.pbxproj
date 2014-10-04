@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		27C7C05819D11F4D002F3480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7C05719D11F4D002F3480 /* AppDelegate.swift */; };
-		27C7C05A19D11F4D002F3480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7C05919D11F4D002F3480 /* ViewController.swift */; };
 		27C7C05D19D11F4D002F3480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C7C05B19D11F4D002F3480 /* Main.storyboard */; };
-		27C7C05F19D11F4D002F3480 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C7C05E19D11F4D002F3480 /* Images.xcassets */; };
 		27C7C06219D11F4D002F3480 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C7C06019D11F4D002F3480 /* LaunchScreen.xib */; };
 		27C7C06E19D11F4D002F3480 /* CircleCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7C06D19D11F4D002F3480 /* CircleCellTests.swift */; };
+		27C7C07819D11F68002F3480 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7C07719D11F68002F3480 /* TableViewCell.swift */; };
+		27C7C07A19D121D9002F3480 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7C07919D121D9002F3480 /* TableViewController.swift */; };
+		27C7C07C19D129EB002F3480 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C7C07B19D129EB002F3480 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		27C7C05219D11F4D002F3480 /* CircleCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C7C05619D11F4D002F3480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27C7C05719D11F4D002F3480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27C7C05919D11F4D002F3480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27C7C05C19D11F4D002F3480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		27C7C05E19D11F4D002F3480 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27C7C06119D11F4D002F3480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		27C7C06719D11F4D002F3480 /* CircleCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C7C06C19D11F4D002F3480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27C7C06D19D11F4D002F3480 /* CircleCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCellTests.swift; sourceTree = "<group>"; };
+		27C7C07719D11F68002F3480 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		27C7C07919D121D9002F3480 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		27C7C07B19D129EB002F3480 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +79,11 @@
 		27C7C05419D11F4D002F3480 /* CircleCell */ = {
 			isa = PBXGroup;
 			children = (
-				27C7C05719D11F4D002F3480 /* AppDelegate.swift */,
-				27C7C05919D11F4D002F3480 /* ViewController.swift */,
+				27C7C07919D121D9002F3480 /* TableViewController.swift */,
+				27C7C07719D11F68002F3480 /* TableViewCell.swift */,
 				27C7C05B19D11F4D002F3480 /* Main.storyboard */,
-				27C7C05E19D11F4D002F3480 /* Images.xcassets */,
 				27C7C06019D11F4D002F3480 /* LaunchScreen.xib */,
+				27C7C07B19D129EB002F3480 /* Images.xcassets */,
 				27C7C05519D11F4D002F3480 /* Supporting Files */,
 			);
 			path = CircleCell;
@@ -90,6 +92,7 @@
 		27C7C05519D11F4D002F3480 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				27C7C05719D11F4D002F3480 /* AppDelegate.swift */,
 				27C7C05619D11F4D002F3480 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C7C07C19D129EB002F3480 /* Images.xcassets in Resources */,
 				27C7C05D19D11F4D002F3480 /* Main.storyboard in Resources */,
 				27C7C06219D11F4D002F3480 /* LaunchScreen.xib in Resources */,
-				27C7C05F19D11F4D002F3480 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C7C05A19D11F4D002F3480 /* ViewController.swift in Sources */,
+				27C7C07819D11F68002F3480 /* TableViewCell.swift in Sources */,
 				27C7C05819D11F4D002F3480 /* AppDelegate.swift in Sources */,
+				27C7C07A19D121D9002F3480 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
